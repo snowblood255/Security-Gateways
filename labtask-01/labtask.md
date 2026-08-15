@@ -255,38 +255,41 @@ The configuration will be the same as pfsense.Just repeat all the steps for the 
 Lets install VyOS now:
 
 Launch the machine and you will see menu choose first one:
-vyosss1
+
+![pfSense installation screen](pictures/vyoss1.png)
 
 After start you will promote to the login screen.Login is vyos password is vyos use these and log in the system:
-vyoss2
+
+![pfSense installation screen](pictures/vyoss2.png)
 
 After login this will appear:
 
-Vyoss3
+![pfSense installation screen](pictures/vyos3.png)
 
 Tyoe ip addr so we will know our interfaces to configure later:
 
-vyos4
+![pfSense installation screen](pictures/vyos4.png)
 
 Now we have to go into configuration mode for configure interfaces.Type configure to the command line.
 After write this to configure eth0 interface via dhcp: set interfaces ethernet eth0 address dhcp.
 
-vyos5
+![pfSense installation screen](pictures/vyos5.png)
 
 Now we use host only adapter ip addres and subnet wo configure lan interface. For that i typed
 set interfaces ethernet eth1 address 192.168.211.102/24 casue my ip is this.
 
-vyos6
+![pfSense installation screen](pictures/vyos6.png)
 
 Now we have to apply the config so type commit and press enter this will apply. Type save o save the settings.Now our interfaces are set:
 
-vyos7
+![pfSense installation screen](pictures/vyos7.png)
 
 Now type exit to go back normal mode.Now time the test connection.Go to the cmd and wrtie ping 192.168.211.102 and look for replies.
-vyos 8
+
+![pfSense installation screen](pictures/vyos8.png)
 
 Now lets test Vyos if it reach the internet.In VyOs type ping 8.8.8.8 and look for replies:
 
-vyos9
+![pfSense installation screen](pictures/vyos9.png)
 
 Install completed.Thats all for now.
