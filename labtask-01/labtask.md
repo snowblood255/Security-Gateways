@@ -6,7 +6,7 @@ For pfsense we will use Internet Archive site. Link is provided below. I downloa
 
 Here is the link: [https://archive.org/details/pfSense-CE-2.6.0-RELEASE-amd64](https://archive.org/details/pfSense-CE-2.6.0-RELEASE-amd64)
 
-![pfSense installation screen](labtask-01/pictures/pfsenseie.png)
+![pfSense installation screen](labtask-01/pictures/pfsense-ie.png)
 
 ---
 
