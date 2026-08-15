@@ -243,7 +243,7 @@ Choose n for certificates and n for http request. After that, setup is complete 
 
 ---
 
-##Last time to install VyOS
+##  Time to install VyOS
 
 The configuration will be the same as pfsense. Just repeat all the steps for the configuration to the VmWare.
 
