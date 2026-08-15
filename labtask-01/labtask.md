@@ -6,13 +6,13 @@ For pfsense we will use Internet Archive site. Link is provided below. I downloa
 
 Here is the link: [https://archive.org/details/pfSense-CE-2.6.0-RELEASE-amd64](https://archive.org/details/pfSense-CE-2.6.0-RELEASE-amd64)
 
-**ScreenSHot**
+![pfSense installation screen](labtask-01/pictures/pfsenseie.png)
 
 ---
 
 After that we have to download Opensense. Go to this site: [https://opnsense.org/download/](https://opnsense.org/download/)
 
-**Screenshot of opensesne**
+![pfSense installation screen](labtask-01/pictures/pfsenseie.png)
 
 Choose image type DVD and click download. The download will start automatically. It will download archive file after download right click and extract it so you will find iso there.
 
