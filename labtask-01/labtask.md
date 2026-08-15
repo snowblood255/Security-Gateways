@@ -161,13 +161,10 @@ Prees enter for none:
 
 ![pfSense installation screen](pictures/pfsense15.png)
 
-We are not setting an ipv6 right now so leave it none and press enter. Type y and press enter:
+We are not setting an ipv6 right now so leave it none and press enter. Type y and press enter.Type ip start range and end range according the ip you set. Then type n and press enter cause we will use https.
+
 
 ![pfSense installation screen](pictures/pfsense16.png)
-
-Type ip start range and end range according the ip you set. Then type n and press enter cause we will use https.
-
-![pfSense installation screen](pictures/pfsense17.png)
 
 Now you can access the internet via provided ip address on the screen of yours not this but what you appeared on your screen.
 Default creds are admin , pfsense. After then you will promote to configuration. Thats all for now.
