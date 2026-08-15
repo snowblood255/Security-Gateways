@@ -181,62 +181,69 @@ Lets install OPNsense now:
 
 OPNsense installion a bit different from PFsense after you start the machine this screen will appear:
 
-opn1
+![pfSense installation screen](pictures/opn1.png)
 
 What you see is live mode without install so we need to install.For this type installer to the login and type opnsense to the password field and click enter.Then install screen will appear
 
-opn2
+![pfSense installation screen](pictures/opn2.png)
 
 Select Continue with default keymap and press next:
 
 Select install(zfs):
 
-opn3
+![pfSense installation screen](pictures/opn3.png)
 
 If it asks for more than 2gb ram click proceed anyways:
 
-opn4
+![pfSense installation screen](pictures/opn4.png)
 
 Select stripe:
 
-opn5
+![pfSense installation screen](pictures/opn5.png)
 
 Press spacebar to choose disk then press enter:
 
-opn6
+![pfSense installation screen](pictures/opn6.png)
+
 
 Click yes to erase the disk and start install:
 
-opn7
+![pfSense installation screen](pictures/opn7.png)
+
 
 Wait for the install complete as pfsense:
-opn8
+
+![pfSense installation screen](pictures/opn8.png)
+
 
 After the install completed keep or change the password if you want then reboot and wait for start then login with root and opnsense password:
 
-opn9
+![pfSense installation screen](pictures/opn9.png)
 
 Now as in the pfsense we have two interfaces there and we have to configure lan one so type 2 then choose lan(enter lan number):
 
-opn10
+![pfSense installation screen](pictures/opn10.png)
 
 Type yes if you want dynamic p and type n if you want static ip.I choose static one:
 
-opn11
+![pfSense installation screen](pictures/opn11.png)
 
 Enter desired ip address as in pfsensee but same subnet with host only adapter:
 
-opn12
+![pfSense installation screen](pictures/opn12.png)
+
 
 Type 24 as in pfsense:
 
-opn13
+![pfSense installation screen](pictures/opn13.png)
+
 
 Choose what i choosed for follwing questions as provided in picture:
 
-opn14
+![pfSense installation screen](pictures/opn14.png)
 
 Choose n for certificates and n for http request.After thet setup is complete and you can access interface via web.Default creds are root and opnsense:
 
+![pfSense installation screen](pictures/opn15.png)
 
 
