@@ -41,7 +41,7 @@ Open your VmWare you will see home screen like in picture:
 
 Click Create new virtual machine then click custom(advanced).
 
-![pfSense installation screen](pictures/wmware2.png)
+![pfSense installation screen](pictures/vmware2.png)
 
 Click next and do not change anything in next page and clik next again. Seleck i will install operating system later and click next.
 
