@@ -170,3 +170,14 @@ Now you can access the internet via provided ip address on the screen of yours n
 Default creds are admin , pfsense. After then you will promote to configuration. Thats all for now.
 
 ![pfSense installation screen](pictures/pfsense17.png)
+
+
+## Now Lets Install Opnsense
+
+The configuration will be the same as pfsense.Just repeat all the steps for the configure to the VmWare
+Lets install OPNsense now:
+OPNsense installion a bit different from PFsense after you start the machine this screen will appear:
+opn1
+What you see is live mode without install so we need to install.For this type installer to the login and type opnsense to the password field and click enter.Then install screen will appear
+opn2
+
