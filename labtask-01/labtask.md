@@ -175,9 +175,40 @@ Default creds are admin , pfsense. After then you will promote to configuration.
 ## Now Lets Install Opnsense
 
 The configuration will be the same as pfsense.Just repeat all the steps for the configure to the VmWare
+
 Lets install OPNsense now:
+
 OPNsense installion a bit different from PFsense after you start the machine this screen will appear:
+
 opn1
+
 What you see is live mode without install so we need to install.For this type installer to the login and type opnsense to the password field and click enter.Then install screen will appear
+
 opn2
+
+Select Continue with default keymap and press next:
+
+Select install(zfs):
+
+opn3
+
+If it asks for more than 2gb ram click proceed anyways:
+
+opn4
+
+Select stripe:
+
+opn5
+
+Press spacebar to choose disk then press enter:
+
+opn6
+
+Click yes to erase the disk and start install:
+
+opn7
+
+Wait for the install complete as pfsense:
+opn8
+
 
