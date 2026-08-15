@@ -99,84 +99,77 @@ Now click cd/dvd and select iso file that you downloaded and clikk ok to close t
 
 Afer launch wait a little bit and the install page will appear:
 
-**pfsense1**
+![pfSense installation screen](pictures/pfsense1.png)
 
 Choose insall and press ok:
 
-**pfsense2**
+![pfSense installation screen](pictures/pfsense2.png)
 
 Select Continue with default keymap and press select:
 
-**pfsense3**
+![pfSense installation screen](pictures/pfsense3.png)
 
 Select Auto(ZFS) and press OK:
 
-**PFSENSE4**
+![pfSense installation screen](pictures/pfsense4.png)
 
 Select install and press Select:
 
-**pfsense5**
+![pfSense installation screen](pictures/pfsense5.png)
 
 Choose stripe and press ok:
 
-**pfsense6**
+![pfSense installation screen](pictures/pfsense6.png)
 
 Press spacebar to select disk and press ok:
 
-**pfsense7**
+![pfSense installation screen](pictures/pfsense7.png)
 
 Cliick yes to erase the disk:
 
-**pfsense8**
+![pfSense installation screen](pictures/pfsense8.png)
 
-Wait for install complete:
+Wait for install complete. After the install completed select no then reboot it:
 
-**pfsense9**
-
-After the install completed select no then reboot it:
-
-**pfsense9**
+![pfSense installation screen](pictures/pfsense9.png)
 
 Wait for the start and you will see main panel:
 
-**pfsense10**
+![pfSense installation screen](pictures/pfsense10.png)
 
 You will see two ip adress one for wan one for lan. We will acees the admin panel via an adress so we have to configre it in order to reach t from windows.
 
 Choose 2 from the list and enter:
 
-**pfsense11**
+![pfSense installation screen](pictures/pfsense11.png)
 
 Select 2:
 
-**pfsense12**
+![pfSense installation screen](pictures/pfsense12.png)
 
 Enter the desired ip adrees that situates in same subnet to know your machine ip go windows and type ipconfig.
 
 you will see vmware host only or vmnet1 ip and subnet. In this case my subnet is 211 so I will set an ip with subnet zero.
 
-**pfsense13**
+![pfSense installation screen](pictures/pfsense13.png)
 
 Set subnet count to 24 press enter:
 
-**pfsense14**
+![pfSense installation screen](pictures/pfsense14.png)
 
 Prees enter for none:
 
-**pfsense15**
+![pfSense installation screen](pictures/pfsense15.png)
 
 We are not setting an ipv6 right now so leave it none and press enter. Type y and press enter:
 
-**pfsense16**
+![pfSense installation screen](pictures/pfsense16.png)
 
 Type ip start range and end range according the ip you set. Then type n and press enter cause we will use https.
 
-**pfsense17**
+![pfSense installation screen](pictures/pfsense17.png)
 
 Now you can access the internet via provided ip address on the screen of yours not this but what you appeared on your screen.
-
-**pfsense18**
-
 Default creds are admin , pfsense. After then you will promote to configuration. Thats all for now.
 
-**pfsense18**
+![pfSense installation screen](pictures/pfsense17.png)
