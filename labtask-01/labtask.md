@@ -23,11 +23,11 @@ Last we need download VyOS. Go to VyOS Github : [https://github.com/vyos/vyos-ni
 
 Choose the latest version and click it. in our case its 2026.08.14-0025-rolling. Click on it.
 
-**screenshot vyos 1**
+![pfSense installation screen](pictures/vyos1.png)
 
 Then scroll down to end and find asstes and in asstes there filename called `vyos-2026.08.14-0025-rolling-generic-amd64.iso`. Click on it and download will start automatically.
 
-**Screenshot vyos 2**
+![pfSense installation screen](pictures/vyos2.png)
 
 Now we downloaded all the required iso files now lets install them into Virual machine i will use VmWare for this.
 
@@ -37,59 +37,59 @@ Now we downloaded all the required iso files now lets install them into Virual m
 
 Open your VmWare you will see home screen like in picture:
 
-**vmware picture**
+![pfSense installation screen](pictures/wmware1.png)
 
 Click Create new virtual machine then click custom(advanced).
 
-**vmware2 pic**
+![pfSense installation screen](pictures/wmware2.png)
 
 Click next and do not change anything in next page and clik next again. Seleck i will install operating system later and click next.
 
-**wmware3**
+![pfSense installation screen](pictures/wmare3.png)
 
 In the next window choose linux and Debian 12.x 64 Bit.
 
-**wmware4**
+![pfSense installation screen](pictures/wmware4.png)
 
 Give name to you machine and click next. I named as PfSense.
 
-**wmware5**
+![pfSense installation screen](pictures/wmware5.png)
 
 Set the cpu setting like in the picture below then click next:
 
-**wmware 6**
+![pfSense installation screen](pictures/wmware6.png)
 
 Assign 2Gb Of ram in this page and click next:
 
-**wmawre7**
+![pfSense installation screen](pictures/wmware7.png)
 
 In current section select NAT for now and click next.
 
-**wmware8**
+![pfSense installation screen](pictures/wmware8.png)
 
 In next page select Recommend and click next and choose recommend again and click next.
 
 In current section select create new virtual disk and click next.
 
-**wmware9**
+![pfSense installation screen](pictures/wmaware9.png)
 
 Size 20gb And select single Virtual disk.
 
-**wmware10**
+![pfSense installation screen](pictures/wmare10.png)
 
 Click next on next page and then click finish if there any checkbox that says Power On this vm uncheck it we will make adjustments before start the vm.
 
 Your Virtual machine will appear on the left panel. Right click it then go to manage then click settings. This panel will appear:
 
-**wmware11**
+![pfSense installation screen](pictures/wmare11.png)
 
 Clcik add and chhose network adapter and click finish:
 
-**wmware12**
+![pfSense installation screen](pictures/wmware12.png)
 
 Click new added network adapter and in the right pane select host only:
 
-**wmware13**
+![pfSense installation screen](pictures/wmware13.png)
 
 Now click cd/dvd and select iso file that you downloaded and clikk ok to close the settongs tab and click the PfSense and select star the VM.
 
