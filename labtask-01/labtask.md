@@ -1,4 +1,4 @@
-<img width="397" height="234" alt="image" src="https://github.com/user-attachments/assets/ecd8e245-827f-4ead-bbe4-39a9c8973df8" /># Steps to install pfsense, opensense adn VyOs
+# Steps to install pfsense, opensense adn VyOs
 
 First we need to download all of them.
 
