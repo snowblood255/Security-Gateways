@@ -246,4 +246,47 @@ Choose n for certificates and n for http request.After thet setup is complete an
 
 ![pfSense installation screen](pictures/opn15.png)
 
+---
 
+##Last time to install VyOS
+
+The configuration will be the same as pfsense.Just repeat all the steps for the configure to the VmWare
+
+Lets install VyOS now:
+
+Launch the machine and you will see menu choose first one:
+vyosss1
+
+After start you will promote to the login screen.Login is vyos password is vyos use these and log in the system:
+vyoss2
+
+After login this will appear:
+
+Vyoss3
+
+Tyoe ip addr so we will know our interfaces to configure later:
+
+vyos4
+
+Now we have to go into configuration mode for configure interfaces.Type configure to the command line.
+After write this to configure eth0 interface via dhcp: set interfaces ethernet eth0 address dhcp.
+
+vyos5
+
+Now we use host only adapter ip addres and subnet wo configure lan interface. For that i typed
+set interfaces ethernet eth1 address 192.168.211.102/24 casue my ip is this.
+
+vyos6
+
+Now we have to apply the config so type commit and press enter this will apply. Type save o save the settings.Now our interfaces are set:
+
+vyos7
+
+Now type exit to go back normal mode.Now time the test connection.Go to the cmd and wrtie ping 192.168.211.102 and look for replies.
+vyos 8
+
+Now lets test Vyos if it reach the internet.In VyOs type ping 8.8.8.8 and look for replies:
+
+vyos9
+
+Install completed.Thats all for now.
