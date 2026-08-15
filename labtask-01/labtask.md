@@ -61,7 +61,7 @@ Set the cpu setting like in the picture below then click next:
 
 Assign 2Gb Of ram in this page and click next:
 
-![pfSense installation screen](pictures/wmware7.png)
+![pfSense installation screen](pictures/wmawre7.png)
 
 In current section select NAT for now and click next.
 
