@@ -1,6 +1,6 @@
-## This Documentation Created By Kanan_H
+# This Documentation Created By Kanan_H
 
-# Steps to install pfsense, opensense adn VyOs
+## Steps to install pfsense, opensense adn VyOs
 
 First we need to download all of them.
 
