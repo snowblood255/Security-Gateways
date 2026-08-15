@@ -1,4 +1,4 @@
-# Steps to install pfsense, opensense adn VyOs
+<img width="397" height="234" alt="image" src="https://github.com/user-attachments/assets/ecd8e245-827f-4ead-bbe4-39a9c8973df8" /># Steps to install pfsense, opensense adn VyOs
 
 First we need to download all of them.
 
@@ -171,6 +171,7 @@ Default creds are admin , pfsense. After then you will promote to configuration.
 
 ![pfSense installation screen](pictures/pfsense17.png)
 
+---
 
 ## Now Lets Install Opnsense
 
@@ -210,5 +211,32 @@ opn7
 
 Wait for the install complete as pfsense:
 opn8
+
+After the install completed keep or change the password if you want then reboot and wait for start then login with root and opnsense password:
+
+opn9
+
+Now as in the pfsense we have two interfaces there and we have to configure lan one so type 2 then choose lan(enter lan number):
+
+opn10
+
+Type yes if you want dynamic p and type n if you want static ip.I choose static one:
+
+opn11
+
+Enter desired ip address as in pfsensee but same subnet with host only adapter:
+
+opn12
+
+Type 24 as in pfsense:
+
+opn13
+
+Choose what i choosed for follwing questions as provided in picture:
+
+opn14
+
+Choose n for certificates and n for http request.After thet setup is complete and you can access interface via web.Default creds are root and opnsense:
+
 
 
